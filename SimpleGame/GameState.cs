@@ -67,6 +67,8 @@ namespace SimpleGame
             _character.Position = new Vector3(0, 0.2f);
             _character.CreateComponent<PrefabReference>()
                 .SetPrefab(Context.ResourceCache.GetResource<PrefabResource>("Models/Characters/YBot/YBot.prefab"));
+            
+            _character.Position = new Vector3(10, 0.2f, -1);
 
             var character = SetupCharacter(_character);
             _player = _character.CreateComponent<Player>();

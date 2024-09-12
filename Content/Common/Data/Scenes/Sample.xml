@@ -111,6 +111,8 @@
 			<attribute name="CSM Splits" value="4 16 128 150" />
 		</component>
 	</node>
+	
+	<!--
 	<node id="12">
 		<attribute name="Is Enabled" value="true" />
 		<attribute name="Name" value="Column_Slim" />
@@ -1262,4 +1264,34 @@
 			<attribute name="Prefab" value="PrefabResource;Quaternius/SciFiModularGunPack/Prefabs/AssaultRifle.prefab" />
 		</component>
 	</node>
+	-->
+
+		<node id="1000000">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="FloorTile_Basic" />
+			<attribute name="Tags">
+				<string value="Untagged" />
+			</attribute>
+			<attribute name="Position" value="5 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="100 1 100" />
+			<attribute name="Variables" />
+			<component type="PrefabReference" id="80">
+				<attribute name="Prefab" value="PrefabResource;Quaternius/UltimateModularSciFiPack/Prefabs/FloorTile_Basic.prefab" />
+			</component>
+		</node>	
+		<node id="1000001">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Landscape" />
+			<attribute name="Tags">
+				<string value="Untagged" />
+			</attribute>
+			<attribute name="Position" value="20 0.4 0" />
+			<attribute name="Rotation" value="1 0 0" />
+			<attribute name="Scale" value="0.7 0.7 0.7" />
+			<attribute name="Variables" />
+			<component type="PrefabReference" id="8000">
+				<attribute name="Prefab" value="PrefabResource;Models/after_the_rain_vr/town.fbx.d/Prefab.prefab" />				
+			</component>
+		</node>				
 </scene>
